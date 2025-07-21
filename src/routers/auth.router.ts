@@ -5,6 +5,6 @@ const route: Router = Router();
 
 route.post("/signup", signUp);
 route.post("/signin", signIn);
-route.get("/keep/:id", keepLogin);
+route.get("/keep", keepLogin);
 
 export default route;
